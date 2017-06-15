@@ -1,1 +1,0 @@
-# Human-Detection-with-Convolution-neural-network-

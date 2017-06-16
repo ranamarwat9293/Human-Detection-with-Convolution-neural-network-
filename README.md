@@ -22,7 +22,7 @@ conda install -c conda-forge tensorflow
  pip install tflearn
  ```
  # Implementation
- # Traing TrainData set
+ ### TrainData set
  Create a Data set frome a video. Capture a video from any Enviroment where humans or non hymans.
  you can get picture frome video by crop the single human or non human only pic
  you can crop picture by matlab code 
@@ -31,7 +31,7 @@ conda install -c conda-forge tensorflow
  * 0 contain humans pictures
  * 1 contains nonhumans pictures
  * give path of Data folder in code
-  # Testing TestData set
+  ### TestData set
    It like just train  data set make video and get pictures frome it like 10 to 15 nonhuman or human 
    and test the data from it
  # human pic like this
@@ -55,4 +55,8 @@ conda install -c conda-forge tensorflow
  
  # Test  data screen shot
  ![test](https://user-images.githubusercontent.com/27928395/27203021-58888850-523d-11e7-9bb6-ec1cec32f165.png)
+ 
+ ### Discussion 
+ I thoroughly studied the approach for human detection butt the best one is Convolutional Neural Networks in Deep learning 
+ Because it took time to figure out the result but the results of this algorithm is accurate 99%
  

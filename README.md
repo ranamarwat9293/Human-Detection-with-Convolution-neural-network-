@@ -21,8 +21,24 @@ conda create -n my_env python=3.5
 conda install -c conda-forge tensorflow
  pip install tflearn
  ```
- # Implementation
- ### TrainData set
+ ##### Implementation
+ 
+ ## Model 
+ 
+ # Layers
+  1. Conv: 64 filters of size 3x3 with ReLU activation
+  2. Pooling: with filter size 2x2
+  3. Conv: 32 filters of size 3x3 with ReLU activation
+  4. Pooling: with filter size 2x2
+  5. Conv: 32 filters of size 3x3 with ReLU activation
+  6. Pooling: with filter size 2x2
+  7. Fully Connected: with 256 neurons and ReLU activation and dropout with probability 0.5
+  8. Fully Connected: with 256 neurons and ReLU activation and dropout with probability 0.5
+  9. Fully Connected output layer: with 2 neurons (equal to number of classes) and softmax classifier.
+ 
+
+ 
+ # Train Dataset
  Create a Data set frome a video. Capture a video from any Enviroment where humans or non hymans.
  you can get picture frome video by crop the single human or non human only pic
  you can crop picture by matlab code 
@@ -31,7 +47,7 @@ conda install -c conda-forge tensorflow
  * 0 contain humans pictures
  * 1 contains nonhumans pictures
  * give path of Data folder in code
-  ### TestData set
+  # Test Dataset
    It like just train  data set make video and get pictures frome it like 10 to 15 nonhuman or human 
    and test the data from it
  # human pic like this

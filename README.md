@@ -64,6 +64,9 @@ conda install -c conda-forge tensorflow
  # Testing
  Run this file in your cmd enviroment 
  Python Test.py
+ # For Detection on picture
+ Run this file in your cmd enviroment
+ Python slide.py
  
  # Result
  # Traning data Screen shot
@@ -71,7 +74,8 @@ conda install -c conda-forge tensorflow
  
  # Test  data screen shot
  ![test](https://user-images.githubusercontent.com/27928395/27203021-58888850-523d-11e7-9bb6-ec1cec32f165.png)
- 
+  # Detection on picture
+   
  ### Discussion 
  I thoroughly studied the approach for human detection butt the best one is Convolutional Neural Networks in Deep learning 
  Because it took time to figure out the result but the results of this algorithm is accurate 99%
